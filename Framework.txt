@@ -1,0 +1,8 @@
+Absolute Agent Web Service Framework
+To restrict access to S3 bucket :
+a.  Provide access to S3 buckets using IAM policies
+b.  Write Bucket policies to restrict access
+c.  Block Public access on bucket 
+d. Setting ACL on our bucket.
+e. Create a special CloudFront user called an origin access identity (OAI) and associate it with your distribution.
+Configure your S3 bucket permissions so that CloudFront can use the OAI to access the files in your bucket and serve them to your users. 
